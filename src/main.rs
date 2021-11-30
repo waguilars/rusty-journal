@@ -1,8 +1,7 @@
 use structopt::StructOpt;
 
-use crate::cli::CommandLineArgs;
-
 mod cli;
+mod tasks;
 
 fn main() {
     let args = cli::CommandLineArgs::from_args();
